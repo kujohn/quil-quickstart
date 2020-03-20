@@ -3,8 +3,8 @@
             [{{name}}.dynamic :as d]
             [quil.middleware :as m]))
 
-(q/defsketch optimistic_galois
-  :size d/size
+(q/defsketch {{name}}
+  :size [500 500]
   :setup d/setup
   :update d/update-state
   :draw d/draw-state

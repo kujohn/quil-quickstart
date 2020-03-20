@@ -1,8 +1,6 @@
 (ns {{name}}.dynamic
-  (:require [quil.core :as q :include-macros true]
+  (:require [quil.core :as q]
             [toolbelt.core :as t]))
-
-(def size [500 500])
 
 (defn setup []
   (q/frame-rate 2)
